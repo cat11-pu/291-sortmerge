@@ -1,0 +1,14 @@
+{
+  "budget": 2,
+  "sources": { "s1": [1, 4, 8], "s2": [2, 3, 9] },
+  "exhausted_error_code": "E_EXHAUSTED",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "cursors": { "s1": 0, "s2": 0 }, "out": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "merge" },
+    { "id": 2, "kind": "merge" },
+    { "id": 3, "kind": "merge" },
+    { "id": 4, "kind": "merge" },
+    { "id": 5, "kind": "merge" }
+  ]
+}
